@@ -1,7 +1,7 @@
 # Rick and Morty
 
 ## O que vamos desenvolver
-![app](app.png)
+![app](app.gif)
 Nesse desafio queremos que você desenvolva a tela acima para colocar em prática alguns conceitos de React.
 
 ### Habilidades que queremos praticar
@@ -31,6 +31,7 @@ Diferente do primeiros projetos de front que são bem guiados aqui você terá m
   - Exiba as seguintes propriedades do personagem `name`, `image`, `species` e `status`.
 
 ### 4. Renderize todos cards de personagens na rota `/characters` de acordo com o gif
+![req4](req4.gif)
 
 ### 5. Edite o componente `Button` para deixar genérico e usar em todos os lugares que precisará de um botão
   - O botão precisará ser renderizado da seguinte maneira
@@ -39,6 +40,9 @@ Diferente do primeiros projetos de front que são bem guiados aqui você terá m
   ```
 
 ### 6. Crie a funcionadade de exibir mais informações de um personagem de acordo com o gif
-
+![req6](req6.gif)
+ - Use rotas dinâmicas
+ - Faça uma requisição em \`https://rickandmortyapi.com/api/character/${id}\` para buscar as informações do personagem
+ - Exiba as seguintes propriedades do personagem `name`, `image`, `species`, `gender` e `status`.
 
  
