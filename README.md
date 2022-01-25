@@ -2,6 +2,7 @@
 
 ## O que vamos desenvolver
 ![app](app.gif)
+
 Nesse desafio queremos que você desenvolva a aplicação acima para colocar em prática alguns conceitos de React.
 
 ### Habilidades que queremos praticar
