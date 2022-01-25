@@ -2,7 +2,7 @@
 
 ## O que vamos desenvolver
 ![app](app.gif)
-Nesse desafio queremos que você desenvolva a tela acima para colocar em prática alguns conceitos de React.
+Nesse desafio queremos que você desenvolva a aplicação acima para colocar em prática alguns conceitos de React.
 
 ### Habilidades que queremos praticar
 * Criação de componentes
@@ -11,7 +11,7 @@ Nesse desafio queremos que você desenvolva a tela acima para colocar em prátic
 * Roteamento com React Router
 * Requisições de API
 
-Diferente do primeiros projetos de front que são bem guiados aqui você terá mais libertade para construir sua tela, só teremos alguns pontos que precisam ser seguidos para garantir a expêriencia em desenvolver com React.
+Diferente dos primeiros projetos de front que são bem guiados aqui você terá mais libertade para construir sua tela, só teremos alguns pontos que precisam ser seguidos para garantir a expêriencia em desenvolver com React.
 
 ## Dicas e Avisos
 * Esse desafio tem como objetivo ser executado na mentoria invertida que tem duração de 50 min, se atentem ao tempo que vão demorar para decidir o que fazer.
@@ -43,6 +43,4 @@ Diferente do primeiros projetos de front que são bem guiados aqui você terá m
 ![req6](req6.gif)
  - Use rotas dinâmicas
  - Faça uma requisição em \`https://rickandmortyapi.com/api/character/${id}\` para buscar as informações do personagem
- - Exiba as seguintes propriedades do personagem `name`, `image`, `species`, `gender` e `status`.
-
- 
+ - Exiba as seguintes propriedades do personagem `name`, `image`, `species`, `status`, `type`, `gender` `Origin` e `Location`.
