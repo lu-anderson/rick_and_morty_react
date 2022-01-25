@@ -14,25 +14,31 @@ Nesse desafio queremos que você desenvolva a tela acima para colocar em prátic
 Diferente do primeiros projetos de front que são bem guiados aqui você terá mais libertade para construir sua tela, só teremos alguns pontos que precisam ser seguidos para garantir a expêriencia em desenvolver com React.
 
 ## Dicas e Avisos
-* Esse desafio tem como objetivo ser executado na mentoria invertido que tem duração de 50 min, se atentem ao tempo que vão demorar para decidir o que fazer.
+* Esse desafio tem como objetivo ser executado na mentoria invertida que tem duração de 50 min, se atentem ao tempo que vão demorar para decidir o que fazer.
 
-* Use a imagem de exemplo para se guiar. 
-
-* Rode `npm install` para instalar as dependências do React
-
-* Antes de começar pense na aplicação como um todo e divida os possíveis componentes.
+* Use as imagens de exemplo para se guiar. 
 
 # Requisitos
-### 1. Crie rotas
-Todos os dados para montar a tela estão no arquivo `data.js`.
-### 2. Todos os gatos devem ter um nome
-Use a constante `names` no arquivo `data.js` para atribuir um nome a cada gato. Você pode fazer essa atribuição da forma que achar melhor.
-### 3. Crie um componente para renderizar os gatos favoritos
-Inclua a propriedade `favorite: true` em alguns gatos e renderize esses gatos em um componente.
-### 4. Crie botões para favoritar e excluir todos os favoritos
-* Os botões devem ser componentes
-* Os botões não precisam disparar nenhuma ação, apenas imprima algo no `console` quando o botão for clicado.
-### 5. Crie um componente para exibir a raça dos gatos
-Para os gatos que não possuirem raças exiba `Raça: não informada`.
+### 1. Crie as rotas da aplicação de acordo com o gif
+![req1](req1.gif)
+
+### 2. Use a API para buscar dados dos personagens
+  - Use o endpoint https://rickandmortyapi.com/api/character
+  - Faça o log dos dados retornados da API
+
+### 3. Edite o componente `Card` para renderizar os personagens
+  - Cada componente `Card` deve renderizar apenas 1 personagem
+  - Exiba as seguintes propriedades do personagem `name`, `image`, `species` e `status`.
+
+### 4. Renderize todos cards de personagens na rota `/characters` de acordo com o gif
+
+### 5. Edite o componente `Button` para deixar genérico e usar em todos os lugares que precisará de um botão
+  - O botão precisará ser renderizado da seguinte maneira
+  ```html
+  <Button>Texto do botão</Button>
+  ```
+
+### 6. Crie a funcionadade de exibir mais informações de um personagem de acordo com o gif
+
 
  
