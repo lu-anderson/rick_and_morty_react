@@ -21,6 +21,8 @@ Diferente dos primeiros projetos de front que são bem guiados aqui você terá 
 # Requisitos
 ### 1. Crie as rotas da aplicação de acordo com o gif
 ![req1](req1.gif)
+  - Crie as rotas: `/characters`, `/locations` e `/episodes`
+  - Permita a navegão entre as rotas
 
 ### 2. Use a API para buscar dados dos personagens
   - Use o endpoint https://rickandmortyapi.com/api/character
@@ -49,3 +51,4 @@ Diferente dos primeiros projetos de front que são bem guiados aqui você terá 
  - Exiba as seguintes propriedades do personagem `name`, `image`, `species`, `status`, `type`, `gender` `Origin` e `Location`.
 
 ### 7. Crie a funcionalidade de deletar os `Cards` dos personagens de acordo com o gif
+![req7](req7.gif)

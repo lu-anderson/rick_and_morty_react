@@ -1,7 +1,3 @@
-a {
-  margin: 5px;
-}
-
 main {
   background-image: url('./images/rick_backgorund.png');
   background-repeat: no-repeat;
@@ -20,6 +16,7 @@ nav {
 }
 
 nav > a {
+  margin: 5px;
   color: #FFF;
   padding: 10px;
   text-decoration: none;
