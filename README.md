@@ -30,6 +30,9 @@ Diferente dos primeiros projetos de front que são bem guiados aqui você terá 
   - Cada componente `Card` deve renderizar apenas 1 personagem
   - Exiba as seguintes propriedades do personagem `name`, `image`, `species` e `status`.
 
+
+<img src="req3.png" alt="drawing" width="200"/> 
+
 ### 4. Renderize todos cards de personagens na rota `/characters` de acordo com o gif
 ![req4](req4.gif)
 
@@ -44,3 +47,5 @@ Diferente dos primeiros projetos de front que são bem guiados aqui você terá 
  - Use rotas dinâmicas
  - Faça uma requisição em \`https://rickandmortyapi.com/api/character/${id}\` para buscar as informações do personagem
  - Exiba as seguintes propriedades do personagem `name`, `image`, `species`, `status`, `type`, `gender` `Origin` e `Location`.
+
+### 7. Crie a funcionalidade de deletar os `Cards` dos personagens de acordo com o gif
