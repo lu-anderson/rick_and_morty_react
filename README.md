@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Rick and Morty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## O que vamos desenvolver
+![app](app.png)
+Nesse desafio queremos que você desenvolva a tela acima para colocar em prática alguns conceitos de React.
 
-## Available Scripts
+### Habilidades que queremos praticar
+* Criação de componentes
+* Componentização
+* Passagem de props
+* Roteamento com React Router
+* Requisições de API
 
-In the project directory, you can run:
+Diferente do primeiros projetos de front que são bem guiados aqui você terá mais libertade para construir sua tela, só teremos alguns pontos que precisam ser seguidos para garantir a expêriencia em desenvolver com React.
 
-### `npm start`
+## Dicas e Avisos
+* Esse desafio tem como objetivo ser executado na mentoria invertido que tem duração de 50 min, se atentem ao tempo que vão demorar para decidir o que fazer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Use a imagem de exemplo para se guiar. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Rode `npm install` para instalar as dependências do React
 
-### `npm test`
+* Antes de começar pense na aplicação como um todo e divida os possíveis componentes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Requisitos
+### 1. Crie rotas
+Todos os dados para montar a tela estão no arquivo `data.js`.
+### 2. Todos os gatos devem ter um nome
+Use a constante `names` no arquivo `data.js` para atribuir um nome a cada gato. Você pode fazer essa atribuição da forma que achar melhor.
+### 3. Crie um componente para renderizar os gatos favoritos
+Inclua a propriedade `favorite: true` em alguns gatos e renderize esses gatos em um componente.
+### 4. Crie botões para favoritar e excluir todos os favoritos
+* Os botões devem ser componentes
+* Os botões não precisam disparar nenhuma ação, apenas imprima algo no `console` quando o botão for clicado.
+### 5. Crie um componente para exibir a raça dos gatos
+Para os gatos que não possuirem raças exiba `Raça: não informada`.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
